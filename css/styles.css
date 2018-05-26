@@ -1,0 +1,197 @@
+:root {
+  --gray-bg: #f2f3f6;
+}
+
+body {
+  margin: 0;
+  padding: 0
+  top: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+/* Header */
+.header-contact {
+  display: grid; 
+  grid-template-columns: 150px 150px;
+}
+
+.nav-container{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
+}
+
+.bg-dark {
+  background: transparent!important;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+/* Hero Secction */
+
+.hero-image {
+  height: 100vh;
+  background-image: url("../img/road.jpg");
+  background-size: cover;
+
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+  padding-top: 17%;
+  text-transform: uppercase;
+}
+
+.cta {
+  background: transparent;
+  border: 3px solid white;
+  padding: 6px 40px;
+  margin-top: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.hablamos {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.cta:hover {
+  background: transparent;
+  border: 3px solid #72b2cd;
+  padding: 6px 40px;
+  margin-top: 20px;
+  color: #72b2cd;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+
+/* Product */
+
+.product-section {
+  text-align: center;
+  padding-top: 100px;
+  /*background-color: var(--gray-bg);*/
+}
+
+.product-section-p {
+  font-weight: 600;
+}
+
+.product-section-images {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.product-section-img {
+  height: 75px;
+  padding-left: 50px;
+}
+
+/* About Us */
+
+.about-us {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.about-us-left {
+  background: #72b2cd;
+  color: white;
+  padding: 50px 50px 50px;
+}
+
+#raul-img {
+  width: 250px;
+}
+
+.about-us-right {
+  background: #BBD9E6;
+  color: white;
+  padding: 50px 50px 50px;
+}
+
+.insurance-options {
+ display: flex;
+ justify-content: space-around;
+}
+
+.insurance-options-icons {
+  text-align: center;
+  padding: 10px 10px 10px;
+  background-color: #147fad;
+  color: white;
+  border-right: 1px solid white;
+}
+
+.insurance-options-icons:hover {
+  background-color: #72b2cd;
+  border: 1px solid white;
+}
+
+/* Facts */
+.facts {
+  height: 150px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* Testimonail */
+.testimonial-section {
+  height: 400px;;
+  background-color: #fbfbfb;
+}
+
+/*Our Services */
+.services {
+  height: 150px;  
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* Map */
+
+#map {
+  height:400px;
+  background-color: var(--gray-bg);
+}
+
+
+
+/* Footer */
+.footer {
+  height: 100%;
+  color: white;
+  background-color: #2b2f36;
+}
+
+.footer-left, .footer-right {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.footer-right li {
+  margin-bottom: 1rem;
+}
+
+.copyright {
+  height: 50px;
+  background-color: #22262b;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
